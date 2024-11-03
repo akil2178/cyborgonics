@@ -1,0 +1,50 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.logo-section .logo {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.main-content h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.notify-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.notify-section h2 {
+    font-size: 1.5em;
+}
+
+.notify-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notify-section input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.notify-section button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
